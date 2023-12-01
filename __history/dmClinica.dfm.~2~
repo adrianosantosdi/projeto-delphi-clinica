@@ -1,0 +1,80 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 453
+  Width = 753
+  object FDConn: TFDConnection
+    Params.Strings = (
+      'Database=dbclinica'
+      'User_Name=root'
+      'Password=p@ssw0rd'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 64
+    Top = 48
+  end
+  object tblPaciente: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = FDConn
+    UpdateOptions.UpdateTableName = 'dbclinica.paciente'
+    TableName = 'dbclinica.paciente'
+    Left = 64
+    Top = 128
+    object tblPacienteid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+    end
+    object tblPacientenome: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'nome'
+      Origin = 'nome'
+      Size = 80
+    end
+    object tblPacientecpf: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cpf'
+      Origin = 'cpf'
+      EditMask = '###.###.###-##;1;_'
+      Size = 14
+    end
+    object tblPacientecelular: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'celular'
+      Origin = 'celular'
+      EditMask = '(##)#####-####;1;_'
+      Size = 16
+    end
+    object tblPacientedata_cadastro: TDateField
+      AutoGenerateValue = arDefault
+      FieldName = 'data_cadastro'
+      Origin = 'data_cadastro'
+    end
+  end
+  object tblAgendamento: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = FDConn
+    UpdateOptions.UpdateTableName = 'dbclinica.agendamento'
+    TableName = 'dbclinica.agendamento'
+    Left = 64
+    Top = 200
+  end
+  object dsPaciente: TDataSource
+    DataSet = tblPaciente
+    Left = 136
+    Top = 128
+  end
+  object dsAgendamento: TDataSource
+    DataSet = tblAgendamento
+    Left = 144
+    Top = 200
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 
+      'C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinic' +
+      'a\libmySQL.dll'
+    Left = 656
+    Top = 32
+  end
+end

@@ -1,0 +1,49 @@
+object frmAgendamento: TfrmAgendamento
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Agendamentos'
+  ClientHeight = 469
+  ClientWidth = 805
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poOwnerFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 805
+    Height = 89
+    Align = alTop
+    TabOrder = 0
+    ExplicitWidth = 823
+    object Label1: TLabel
+      Left = 24
+      Top = 28
+      Width = 277
+      Height = 25
+      Caption = 'Cadastro de Agendamento'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object DBNavigator1: TDBNavigator
+      Left = 472
+      Top = 26
+      Width = 250
+      Height = 37
+      DataSource = DM.dsPaciente
+      TabOrder = 0
+    end
+  end
+end

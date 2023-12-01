@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/15 21:22:53.000.317,=C:\Users\Adriano Santos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/21 18:56:40.000.082,=C:\Users\Adriano Santos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/01 08:31:01.698,=C:\Users\Adriano Santos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/01 08:40:28.206,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\uClinica.dfm=C:\Users\Adriano Santos\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/12/01 08:40:28.206,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\uClinica.pas=C:\Users\Adriano Santos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/01 08:40:37.249,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Clinica.dproj=C:\Users\Adriano Santos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/12/01 09:23:16.784,=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit2.pas</Transaction>
+    <Transaction>2023/12/01 09:23:51.221,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\uCadPaciente.pas=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit2.pas</Transaction>
+    <Transaction>2023/12/01 09:23:51.221,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\uCadPaciente.dfm=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit2.dfm</Transaction>
+    <Transaction>2023/12/01 09:23:57.198,=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit3.pas</Transaction>
+    <Transaction>2023/12/01 09:24:13.166,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\uCadAgendamento.dfm=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit3.dfm</Transaction>
+    <Transaction>2023/12/01 09:24:13.166,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\uCadAgendamento.pas=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit3.pas</Transaction>
+    <Transaction>2023/12/01 12:54:26.777,=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit1.pas</Transaction>
+    <Transaction>2023/12/01 13:02:47.200,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\dmClinica.dfm=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit1.dfm</Transaction>
+    <Transaction>2023/12/01 13:02:47.200,C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\dmClinica.pas=C:\Users\Adriano Santos\Documents\Projetos Delphi\Sistema Clinica\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
